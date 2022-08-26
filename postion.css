@@ -1,0 +1,14 @@
+.blue{
+    background-color: blue;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.red{
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+}

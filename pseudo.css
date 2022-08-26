@@ -1,0 +1,45 @@
+.humble{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+}
+.humble :hover{
+    background-color: blue;
+}
+.pseudo p:first-child{
+    background-color: yellow;
+}
+
+
+.pseudo P:last-child{
+    background-color: rgb(0, 255, 4);
+}
+
+.interval h3:nth-child(even){
+    background-color: green;
+}
+
+.interval h3:nth-child(odd){
+    background-color: gold;
+}
+
+.okeoghene p::first-letter{
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+
+.okeoghene h5::before{
+    color: red;
+}
+
+
+/* .okeoghene h5::after{
+    color: green;
+    
+} */
+
+
+.dammy{
+    opacity: 0.3;
+}
